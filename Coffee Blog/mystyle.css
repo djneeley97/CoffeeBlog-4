@@ -1,0 +1,170 @@
+/*global*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 100%;
+}
+a{  
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+h1{
+    color: white;
+}
+h2{
+    padding: 10px;
+}
+h4{
+    padding: 10px;
+}
+/*utilities*/
+.btn{
+    display: block;
+    width: 180px;
+    background-color: rgba(163, 83, 4, 0.863);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*header*/
+.site-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color:white;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-around;/*horizontal*/
+    align-items: center;/*vertical*/
+    height: 200px;
+}
+.secondary-header{
+    background-color: black;
+}
+/*main*/
+main{
+    width: 60%;
+    margin-right: 20px;
+}
+/*blog*/
+.blog-container{
+    margin-top: 20px;
+}
+.blog-container h3{
+    margin-top: 20px;
+}
+.blog-container p{
+    margin-top: 20;
+}
+.blog-container .btn{
+    background-color: black;
+}
+
+/*contact*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-imputs{
+    background-color: white;
+    padding: 20px;
+    margin-top: -50px;
+}
+.form-imputs .btn{
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+}
+.form-imputs div{
+    margin: 20;
+}
+.form-imputs input,
+.form-imputs textarea{
+    width: 70%;
+    padding: 5px;
+}
+.form-imputs label{
+    display: inline-block;
+    width: 80px;
+}
+/*courses*/
+.course-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.course-img{
+    max-width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ul{
+    padding: 10px;
+    
+}
+.course-imputs{
+    background-color: white;
+    padding: 60px;
+    margin-top: 0px;
+}
+.course-imputs .btn{
+    background-color: black;
+    padding: 10px;
+    font-size: 14px;
+    width: 100px;
+}
+.course-imputs div{
+    margin: 20;
+}
+.course-imputs input,
+.courses-imputs textarea{
+    width: 90%;
+    padding: 10px;
+}
+.course-info{
+    padding-top: 20px;
+}
+.course-info h3{
+    padding-top: 5px;
+    width:90%;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+} 
+
+
